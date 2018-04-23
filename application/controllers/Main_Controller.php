@@ -11,4 +11,8 @@ class Main_Controller extends CI_Controller {
 	public function index(){
 		$this->load->view('index');
 	}
+
+	public function viewPage($name){
+		$this->load->view($name);
+	}
 }
