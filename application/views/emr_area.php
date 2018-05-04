@@ -7,7 +7,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Customer
+        Area Administrator
         <small>new</small>
       </h1>
       <ol class="breadcrumb">
@@ -31,6 +31,20 @@
             <div class="box-body">
              
               <input class="form-control" type="text" placeholder="Please insert the National Identity Card Number">
+              
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+          <!-- Form Element sizes -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">EPF info</h3>
+            </div>
+            <div class="box-body">
+             
+              <input class="form-control" type="text" placeholder="Please insert the EPF Number">
               
             </div>
             <!-- /.box-body -->
@@ -61,47 +75,14 @@
                   <input type="text" class="form-control" id="inputCustomerFirstName" placeholder="">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Name with initials</label>
+                  <label for="exampleInputEmail1">Full name</label>
                   <input type="text" class="form-control" id="inputCustomerMiddleName" placeholder="">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Name denoted by initials</label>
-                  <input type="text" class="form-control" id="inputCustomerLastName" placeholder="">
-                </div>                
+                </div>                               
               </div>
               <!-- /.box-body -->
             </form>
           </div>
-          <!-- /.box -->
-
-          <!-- general form elements -->
-          <div class="box box-primary">
-            <div class="box-header with-border">
-              <h3 class="box-title">Address info</h3>
-            </div>
-            <!-- /.box-header -->
-            <!-- form start -->
-            <form role="form">
-              <div class="box-body">
-                <div class="form-group">
-                  <!-- for attribute of the lable tag shold match with the corresponding input tag-->
-                  <label for="inputCustomerFirstName">Mailing address</label>
-                  <input type="text" class="form-control" id="inputCustomerFirstName" placeholder="Mailing address">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Municiple Council</label>
-                  <input type="text" class="form-control" id="inputCustomerMiddleName" placeholder="Municiple council">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">District</label>
-                  <input type="text" class="form-control" id="inputCustomerLastName" placeholder="District">
-                </div>                
-              </div>
-
-              <!-- /.box-body -->
-            </form>
-          </div>
-          <!-- /.box -->
+          <!-- /.box -->                
 
         </div>
         <!--/.col (left) -->
@@ -109,7 +90,7 @@
         <div class="col-md-6">         
 
           <!-- Input addon -->
-          <div class="box box-success">
+          <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Contact info</h3>
             </div>
@@ -136,46 +117,55 @@
                 <span class="input-group-addon"><i class="fa fa-eye"></i></span>
                 <input type="email" class="form-control" placeholder="Password">
               </div>
-              <br> 
+              <br>
 
               <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-eye-slash"></i></span>
-                <input type="email" class="form-control" placeholder="Confirm password">
+                <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <input type="email" class="form-control" placeholder="PIN">
               </div>
-              <br>                           
+              <br> 
+                                     
             </div>
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
 
-          <!-- Form Element sizes -->
+          <!-- general form elements -->
           <div class="box box-success">
             <div class="box-header with-border">
-              <h3 class="box-title">Created by</h3>
+              <h3 class="box-title">Location info</h3>
             </div>
-            <div class="box-body">
-             
-              <input class="form-control" type="text" placeholder="created by">
-              
-            </div>
-
-            <!-- /.box-body -->
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form">
+              <div class="box-body">
+                <div class="form-group has-success">
+                  <label class="control-label" for="inputSuccess">Longitude</label>
+                  <input type="text" class="form-control" id="inputSuccess" placeholder="Enter the lattitude">                  
+                </div>
+                <div class="form-group has-success">
+                  <label class="control-label" for="inputSuccess">Lattitude</label>
+                  <input type="text" class="form-control" id="inputSuccess" placeholder="Enter the lattitude">                  
+                </div>                             
+              </div>              
+              <!-- /.box-body -->
+            </form>
           </div>
-          <!-- /.box -->   
-
+          <!-- /.box -->
+          
         </div>
         <!--/.col (right) -->
       </div>
       <!-- /.row -->
 
-      <div class="row">       
+      <!-- row -->
+      <div class="row">        
         <div class="col-md-12">
           <div class="box-footer">           
-            <button type="submit" class="btn btn-primary pull-right">Regester Customer</button>
+            <button type="submit" class="btn btn-primary pull-right">Generate Administrator</button>
           </div>
         </div>
       </div>
-
 
     </section>
     <!-- /.content -->

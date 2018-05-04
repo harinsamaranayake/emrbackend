@@ -38,6 +38,7 @@
 
 <!-- Select2 -->
 <script src="<?php echo base_url()?>ui/bower_components/select2/dist/js/select2.full.min.js"></script>
+
 <!-- InputMask -->
 <script src="<?php echo base_url()?>ui/plugins/input-mask/jquery.inputmask.js"></script>
 <script src="<?php echo base_url()?>ui/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
@@ -127,6 +128,25 @@
     //Timepicker
     $('.timepicker').timepicker({
       showInputs: false
+    })
+  })
+</script>
+
+<!-- table -->
+<!-- DataTables -->
+<script src="<?php echo base_url()?>ui/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo base_url()?>ui/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<!-- page script -->
+<script>
+  $(function () {
+    $('#example1').DataTable()
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : false
     })
   })
 </script>

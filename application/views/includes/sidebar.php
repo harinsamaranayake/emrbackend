@@ -102,7 +102,11 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_customer"><i class="fa fa-circle-o"></i> Customer</a></li>
-            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_account"><i class="fa fa-circle-o"></i>Account</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_account"><i class="fa fa-circle-o"></i> Account</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_reader"><i class="fa fa-circle-o"></i> Reader</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_super"><i class="fa fa-circle-o"></i> Super Administrator</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_area"><i class="fa fa-circle-o"></i> Area Administrator</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_fixed_rates"><i class="fa fa-circle-o"></i> Fixed Rates</a></li>
             <li><a href="<?php echo base_url()?>ui/pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
             <li><a href="<?php echo base_url()?>ui/pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
             <li><a href="<?php echo base_url()?>ui/pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
