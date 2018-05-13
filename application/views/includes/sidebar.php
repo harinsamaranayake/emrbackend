@@ -107,6 +107,12 @@
             <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_super"><i class="fa fa-circle-o"></i> Super Administrator</a></li>
             <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_area"><i class="fa fa-circle-o"></i> Area Administrator</a></li>
             <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_fixed_rates"><i class="fa fa-circle-o"></i> Fixed Rates</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_packets"><i class="fa fa-circle-o"></i> Packets</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_accounts"><i class="fa fa-circle-o"></i> Accounts</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_detailed_bill"><i class="fa fa-circle-o"></i> Deteiled Bill</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/emr_map"><i class="fa fa-circle-o"></i> Map</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/customer_index"><i class="fa fa-circle-o"></i> CA_index</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Main_Controller/viewPage/customer_404"><i class="fa fa-circle-o"></i> CA_404</a></li>
             <li><a href="<?php echo base_url()?>ui/pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
             <li><a href="<?php echo base_url()?>ui/pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
             <li><a href="<?php echo base_url()?>ui/pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
